@@ -1,4 +1,4 @@
-# airport_simulator
+# Airport Security Simulator
 
 In this problem, I can simulate a simplified airport security system at a busy airport. Passengers arrive
 according to a Poisson distribution with λ1 = 5 per minute (i.e., mean interarrival rate µ1 = 0.2 minutes) to
