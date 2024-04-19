@@ -1,4 +1,4 @@
-####### Homework 9 Question 4 using Simpy ######
+####### using Simpy ######
 
 # ---------- Import modules -----------
 
