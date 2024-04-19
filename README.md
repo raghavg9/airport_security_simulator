@@ -1,6 +1,5 @@
 # airport_simulator
 
-
 In this problem, I can simulate a simplified airport security system at a busy airport. Passengers arrive
 according to a Poisson distribution with λ1 = 5 per minute (i.e., mean interarrival rate µ1 = 0.2 minutes) to
 the ID/boarding-pass check queue, where there are several servers who each have exponential service
@@ -8,6 +7,8 @@ time with mean rate µ2 = 0.75 minutes. I will be modeling them as one block tha
 resource. After that, the passengers are assigned to the shortest of the several personal-check queues,
 where they go through the personal scanner (time is uniformly distributed between 0.5 minutes and 1
 minute).
+
+
 I will use Python with SimPy to build a simulation of the
 system, and then vary the number of ID/boarding-pass checkers and personal-check queues to determine
 how many are needed to keep average wait times below 15 minutes. [I can use λ1 = 50 to simulate a busier airport.]
